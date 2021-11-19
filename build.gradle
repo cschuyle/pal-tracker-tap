@@ -23,6 +23,8 @@ dependencyManagement {
 dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-web'
     implementation 'org.springframework.cloud:spring-cloud-starter-kubernetes-fabric8-config'
+    implementation group: 'org.springframework.boot', name: 'spring-boot-starter-actuator', version: '2.5.6'
+
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
 
